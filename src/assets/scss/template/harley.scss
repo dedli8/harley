@@ -1,0 +1,156 @@
+.wrapper {
+  max-width: 860px;
+}
+
+.header, .footer {
+  background-color: #303338;
+}
+
+.header {
+  p {
+    color: $white;
+    font-size: 12px;
+
+    a {
+      color: inherit;
+      border-bottom: 1px solid white;
+    }
+  }
+}
+
+.banner, .questions {
+  background-color: #ddebca;
+}
+
+.info {
+  background-color: white;
+  p {
+    max-width: 440px;
+    font-size: 18px;
+  }
+}
+.your-order, .order, .contacts {
+  background-color: #f6f6f6;
+}
+.your-order p {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.order {
+  .container {
+    background-color: white;
+  }
+
+  a {
+    color: #4ca0e1;
+    border-bottom: 1px solid #4ca0e1;
+  }
+
+  span {
+    font-weight: 900;
+  }
+}
+.order-container {
+  border: 2px solid #f4f4f4;
+}
+.order-number {
+  padding-left: 15px;
+  font-weight: 600;
+}
+.product-info {
+  width: 100%;
+  td, th, p {
+    font-size: 11px;
+  }
+
+  th {
+    font-weight: 900;
+  }
+
+  td {
+    line-height: 20px;
+  }
+  .product-pic{
+    min-width: 70px;
+  }
+  .quantity{
+    min-width: 50px;
+  }
+}
+
+
+.contacts {
+  .content {
+    line-height: 34px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  p {
+    max-width: 620px;
+  }
+  span {
+     font-weight: 600;
+   }
+  a {
+    color: #3866a1;
+    border-bottom: 1px solid #3866a1;
+  }
+}
+.questions p {
+  font-size: 15px;
+  line-height: 29px;
+  //@media screen and (max-width: 596px) {
+  //  padding-top: 15px;
+  //}
+}
+.socials {
+  img {
+    display: inline-block;
+    //margin-right: 5px;
+    vertical-align: top;
+  }
+  span {
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    vertical-align: top;
+  }
+
+  a {
+    display: block;
+    width: 201px;
+    margin: 0 auto;
+  }
+  .insta {
+    text-align: center;
+  }
+  .web {
+    text-align: right;
+  }
+}
+.footer {
+  background-image: url("https://harleyandcho.com.ua/theme/email/assets/img/footerbg.png");
+  background-position: bottom left;
+  background-repeat: repeat-x;
+}
+.bottom-footer p {
+  color: #8d9bac;
+  font-size: 11px;
+  //@media screen and (max-width: 596px) {
+  //  padding-top: 25px;
+  //}
+  a {
+    border-bottom: 1px solid #8d9bac;
+    color: #8d9bac;
+  }
+
+}
+.socials-img-wrap{
+  width: 40px;
+  text-align: center;
+}
+
+

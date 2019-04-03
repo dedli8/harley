@@ -21,7 +21,7 @@ subject: My Email Templates
   <spacer size="50"></spacer>
   <container>
     <p>
-      В ближайшее время мы перезвоним Вам <br> для подтверждения заказа и согласуем время доставки.
+      В ближайшее время мы перезвоним Вам для подтверждения заказа и согласуем время доставки.
     </p>
   </container>
   <spacer size="40"></spacer>
@@ -39,25 +39,63 @@ subject: My Email Templates
       <p class="order-number">У вас новый заказ #1808/49</p>
     <spacer size="30"></spacer>
     <container>
-    <row class="collapse product-info">
-      <columns small="3" large="3" valign="middle" class="img-product show-for-large">
-        <img class="float-center" src="https://harleyandcho.com.ua/theme/email/assets/img/product.png" alt="">
-      </columns>
-      <columns small="12" large="9">
-        <table>
-          <tr><th>Наименование</th><th>Количество</th><th>Стоимость</th></tr>
-          <tr><td><a href="#">Лежак Dreamer Blue Velvet S (50x40 cm)</a></td><td>1 шт</td><td>890 грн.</td></tr>
-          <tr><td>Размер: XS (50x40 cm)</td></tr>
-          <tr><td>Цвет: Голубой</td></tr>
-          <tr><td>Артикул: 3100099</td></tr>
-          <tr><td></td><td><span>1 шт</span></td><td><span>890 грн.</span></td></tr>
-        </table>
-      </columns>
-    </row>
+      <table class="product-info">
+        <tr>
+        <th></th>
+        <th width="200">Наименование</th>
+        <th class="quantity">Кол-во</th>
+        <th>Стоимость</th>
+        </tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle"><img style="min-width: 70px" class="float-center product-pic" src="https://harleyandcho.com.ua/theme/email/assets/img/product.png" alt=""></td>
+          <td rowspan="4"><a href="#">Лежак Dreamer Blue Velvet S (50x40 cm)</a>
+          <p>Размер: XS (50x40 cm)</p>
+          <p>Цвет: Голубой</p>
+          <p>Артикул: 3100099</p>
+            <br>
+          </td>
+          <td>1 шт</td>
+          <td>890 грн.</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle"><img style="min-width: 70px" class="float-center product-pic" src="https://harleyandcho.com.ua/theme/email/assets/img/product.png" alt=""></td>
+          <td rowspan="4"><a href="#">Лежак Dreamer Blue Velvet S (50x40 cm)</a>
+            <p>Размер: XS (50x40 cm)</p>
+            <p>Цвет: Голубой</p>
+            <p>Артикул: 3100099</p>
+            <br>
+          </td>
+          <td>1 шт</td>
+          <td>890 грн.</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <td rowspan="4" style="vertical-align: middle"><img class="float-center product-pic" src="https://harleyandcho.com.ua/theme/email/assets/img/product.png" alt=""></td>
+          <td rowspan="4"><a href="#">Лежак Dreamer Blue Velvet S (50x40 cm)</a>
+            <p>Размер: XS (50x40 cm)</p>
+            <p>Цвет: Голубой</p>
+            <p>Артикул: 3100099</p>
+            <br>
+          </td>
+          <td>1 шт</td>
+          <td>890 грн.</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+         <td></td><td></td><td><span>1 шт</span></td><td><span>890 грн.</span></td>
+        </tr>
+      </table>
     </container>
     <spacer size="30"></spacer>
     <row>
-      <p class="order-number">Итого, с доставкой: <span>890 грн.</span></p>
+      <p class="order-number">К оплате за заказ: <span>890 грн.</span></p>
     </row>
     <spacer size="38"></spacer>
   </container>
@@ -91,7 +129,7 @@ subject: My Email Templates
   <spacer size="25"></spacer>
   <container>
     <p>В случае возникновения любых дополнительных вопросов, пожалуйста, звоните нам: <br>
-      +38 (050) 552-7445,  +38 (067) 452-7445. <br>
+      <a href="#">+38 (050) 552-7445</a>, <a href="#">+38 (067) 452-7445</a>. <br>
       Расскажем, покажем и ответим на все вопросы.
       <br>
       <br>
@@ -103,13 +141,13 @@ subject: My Email Templates
   <spacer size="25"></spacer>
   <container>
    <row class="socials collapse">
-     <columns><a class="fb small-text-center" href="#"><img src="https://harleyandcho.com.ua/theme/email/assets/img/fb.png" alt=""><span>facebook.com/harleyandcho</span></a></columns>
-     <columns><a class="insta small-text-center large-text-center" href="#"><img src="https://harleyandcho.com.ua/theme/email/assets/img/insta.png" alt=""><span>instagram.com/harleyandcho</span></a></columns>
-     <columns><a class="web small-text-center" href="#"><img src="https://harleyandcho.com.ua/theme/email/assets/img/web.png" alt=""><span>www.harleyandcho.com.ua</span></a></columns>
+     <columns><a class="fb" href="#"><span class="socials-img-wrap"><img src="https://harleyandcho.com.ua/theme/email/assets/img/fb.png" alt=""></span><span>facebook.com/harleyandcho</span></a></columns>
+     <columns><a class="insta small-text-left large-text-center" href="#"><span class="socials-img-wrap"><img src="https://harleyandcho.com.ua/theme/email/assets/img/insta.png" alt=""></span><span>instagram.com/harleyandcho</span></a></columns>
+     <columns><a class="web small-text-left" href="#"><span class="socials-img-wrap"><img src="https://harleyandcho.com.ua/theme/email/assets/img/web.png" alt=""></span><span>www.harleyandcho.com.ua</span></a></columns>
    </row>
     <spacer size="25"></spacer>
     <row class="bottom-footer collapse">
-      <columns><a href="#"><img class="small-float-center" src="https://harleyandcho.com.ua/theme/email/assets/img/logobig.png" alt=""></a></columns>
+      <columns><a href="#"><img class="small-float-center" src="https://harleyandcho.com.ua/theme/email/assets/img/logobig.png" alt=""></a><spacer size="25"></spacer></columns>
       <columns><p class="small-text-center">Вы получили это письмо, так как являетесь клиентом <a href="#">HARLEYANDCHO.COM.UA</a> Чтобы не получать письма на адрес
         yaschuklc@gmail.com, нажмите <a href="#">отписаться</a>.
         <br>
